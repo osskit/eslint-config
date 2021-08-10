@@ -1,0 +1,57 @@
+{
+  "name": "@osskit/eslint-config",
+  "version": "0.0.0",
+  "description": "The eslint config used by osskit",
+  "main": "eslint.json",
+  "scripts": {
+    "test": "run-s lint find-new-rules",
+    "lint": "run-p lint-*",
+    "lint-eslint": "eslint ./fixtures/es6.js -c ./eslint.json",
+    "lint-typescript": "eslint ./fixtures/ts.ts -c ./eslint.json",
+    "lint-test": "eslint ./fixtures/test.js -c ./test.json",
+    "lint-react": "eslint ./fixtures/react.js -c ./react.json",
+    "lint-react-test": "eslint ./fixtures/react-test.js -c ./react-test.json",
+    "lint-react-native": "eslint ./fixtures/react-native.js -c ./react-native.json",
+    "lint-react-native-test": "eslint ./fixtures/react-native-test.js -c ./react-native-test.json",
+    "find-new-rules": "eslint-find-rules --unused ./eslint.json && eslint-find-rules --unused ./react.json && eslint-find-rules --unused ./react-native.json",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osskit/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "es6",
+    "codestyle",
+    "react",
+    "osskit"
+  ],
+  "author": "osskit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osskit/eslint-config/issues"
+  },
+  "homepage": "https://github.com/osskit/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-find-rules": "^3.6.1",
+    "husky": "^7.0.1",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-jest": "^24.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-native": "^3.11.0",
+    "eslint-plugin-unicorn": "^35.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
