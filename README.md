@@ -41,13 +41,13 @@ Or add the ESLint config to your `package.json`:
 
 This package exposes additional configs.
 
-#### Test [`@osskit/test`](test.json)
+#### Test [`@osskit/eslint-config/test`](test.json)
 
 Use this for your jest tests
 
 ```json
 {
-  "extends": "@osskit/test"
+  "extends": "@osskit/eslint-config/test"
 }
 ```
 
@@ -57,11 +57,11 @@ Install the plugin:
 $ npm install --save-dev eslint-plugin-jest
 ```
 
-#### React [`@osskit/react`](react.json)
+#### React [`@osskit/eslint-config/react`](react.json)
 
 ```json
 {
-  "extends": "@osskit/react"
+  "extends": "@osskit/eslint-config/react"
 }
 ```
 
@@ -71,13 +71,13 @@ Install the plugin:
 $ npm install --save-dev eslint-plugin-react
 ```
 
-#### React Test [`@osskit/react-test`](react-test.json)
+#### React Test [`@osskit/eslint-config/react-test`](react-test.json)
 
 Use this for your react jest tests
 
 ```json
 {
-  "extends": "@osskit/react-test"
+  "extends": "@osskit/eslint-config/react-test"
 }
 ```
 
@@ -87,11 +87,11 @@ Install the plugins:
 $ npm install --save-dev eslint-plugin-jest eslint-plugin-react
 ```
 
-#### React Native [`@osskit/react-native`](react-native.json)
+#### React Native [`@osskit/eslint-config/react-native`](react-native.json)
 
 ```json
 {
-  "extends": "@osskit/react-native"
+  "extends": "@osskit/eslint-config/react-native"
 }
 ```
 
@@ -101,13 +101,13 @@ Install the plugins:
 $ npm install --save-dev eslint-plugin-react eslint-plugin-react-native
 ```
 
-#### React Native Test [`@osskit/react-native-test`](react-native-test.json)
+#### React Native Test [`@osskit/eslint-config/react-native-test`](react-native-test.json)
 
 Use this for your react native jest tests
 
 ```json
 {
-  "extends": "@osskit/react-native-test"
+  "extends": "@osskit/eslint-config/react-native-test"
 }
 ```
 
