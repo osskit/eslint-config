@@ -1,4 +1,4 @@
-# @osskit/eslint-config
+# @osskit/eslint-config [![NPM version](https://img.shields.io/npm/v/@osskit/eslint-config.svg)](https://www.npmjs.com/package/@osskit/eslint-config)
 
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) used by osskit.
 
