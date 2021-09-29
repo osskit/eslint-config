@@ -749,6 +749,10 @@
     "unicorn/prefer-at": "error",
     "unicorn/prefer-object-from-entries": "error",
     "unicorn/prefer-top-level-await": "off",
-    "unicorn/require-post-message-target-origin": "error"
+    "unicorn/require-post-message-target-origin": "error",
+    "@typescript-eslint/no-meaningless-void-operator": "error",
+    "@typescript-eslint/padding-line-between-statements": "off",
+    "unicorn/no-invalid-remove-event-listener": "error",
+    "unicorn/no-useless-fallback-in-spread": "error"
   }
 }

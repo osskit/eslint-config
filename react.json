@@ -120,6 +120,8 @@
     "react/no-adjacent-inline-elements": "error",
     "react/jsx-newline": ["error", { "prevent": true }],
     "react/jsx-no-constructed-context-values": "error",
-    "react/no-unstable-nested-components": "error"
+    "react/no-unstable-nested-components": "error",
+    "react/no-namespace": "error",
+    "react/prefer-exact-props": "off"
   }
 }
