@@ -65,10 +65,10 @@ $ npm install --save-dev eslint-plugin-jest
 }
 ```
 
-Install the plugin:
+Install the plugins:
 
 ```
-$ npm install --save-dev eslint-plugin-react
+$ npm install --save-dev eslint-plugin-react eslint-plugin-react-hooks
 ```
 
 #### React Test [`@osskit/eslint-config/react-test`](react-test.json)
@@ -84,7 +84,7 @@ Use this for your react jest tests
 Install the plugins:
 
 ```
-$ npm install --save-dev eslint-plugin-jest eslint-plugin-react
+$ npm install --save-dev eslint-plugin-jest eslint-plugin-react eslint-plugin-react-hooks
 ```
 
 #### React Native [`@osskit/eslint-config/react-native`](react-native.json)
@@ -98,7 +98,7 @@ $ npm install --save-dev eslint-plugin-jest eslint-plugin-react
 Install the plugins:
 
 ```
-$ npm install --save-dev eslint-plugin-react eslint-plugin-react-native
+$ npm install --save-dev eslint-plugin-react eslint-plugin-react-native eslint-plugin-react-hooks
 ```
 
 #### React Native Test [`@osskit/eslint-config/react-native-test`](react-native-test.json)
@@ -114,5 +114,5 @@ Use this for your react native jest tests
 Install the plugins:
 
 ```
-$ npm install --save-dev eslint-plugin-jest eslint-plugin-react eslint-plugin-react-native
+$ npm install --save-dev eslint-plugin-jest eslint-plugin-react eslint-plugin-react-native eslint-plugin-react-hooks
 ```

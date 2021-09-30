@@ -685,6 +685,8 @@
     "@typescript-eslint/no-meaningless-void-operator": "error",
     "@typescript-eslint/padding-line-between-statements": "off",
     "unicorn/no-invalid-remove-event-listener": "error",
-    "unicorn/no-useless-fallback-in-spread": "error"
+    "unicorn/no-useless-fallback-in-spread": "error",
+    "@typescript-eslint/no-non-null-asserted-nullish-coalescing": "error",
+    "@typescript-eslint/no-restricted-imports": "off"
   }
 }

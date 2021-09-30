@@ -14,7 +14,8 @@
     }
   },
   "plugins": [
-    "react"
+    "react",
+    "react-hooks"
   ],
   "rules": {
     "react/jsx-boolean-value": [
@@ -122,6 +123,8 @@
     "react/jsx-no-constructed-context-values": "error",
     "react/no-unstable-nested-components": "error",
     "react/no-namespace": "error",
-    "react/prefer-exact-props": "off"
+    "react/prefer-exact-props": "off",
+    "react-hooks/exhaustive-deps": "error",
+    "react-hooks/rules-of-hooks": "error"
   }
 }
