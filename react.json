@@ -124,7 +124,6 @@
     "react/no-unstable-nested-components": "error",
     "react/no-namespace": "error",
     "react/prefer-exact-props": "off",
-    "react-hooks/exhaustive-deps": "error",
     "react-hooks/rules-of-hooks": "error"
   }
 }
