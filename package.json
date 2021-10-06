@@ -1,6 +1,6 @@
 {
   "name": "@osskit/eslint-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The eslint config used by osskit",
   "main": "eslint.json",
   "scripts": {
