@@ -540,7 +540,6 @@
     "@typescript-eslint/no-throw-literal": "error",
     "@typescript-eslint/no-untyped-public-signature": "off",
     "@typescript-eslint/no-unused-expressions": "error",
-    "@typescript-eslint/no-unused-vars-experimental": "error",
     "@typescript-eslint/prefer-nullish-coalescing": "error",
     "@typescript-eslint/prefer-optional-chain": "error",
     "@typescript-eslint/restrict-template-expressions": "off",
@@ -687,6 +686,14 @@
     "unicorn/no-invalid-remove-event-listener": "error",
     "unicorn/no-useless-fallback-in-spread": "error",
     "@typescript-eslint/no-non-null-asserted-nullish-coalescing": "error",
-    "@typescript-eslint/no-restricted-imports": "off"
+    "@typescript-eslint/no-restricted-imports": "off",
+    "@typescript-eslint/consistent-type-exports": "error",
+    "no-unused-private-class-members": "error",
+    "prefer-object-has-own": "error",
+    "unicorn/no-await-expression-member": "error",
+    "unicorn/no-empty-file": "error",
+    "unicorn/prefer-code-point": "error",
+    "unicorn/prefer-export-from": "error",
+    "unicorn/template-indent": "off"
   }
 }
