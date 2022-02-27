@@ -110,7 +110,7 @@
     "no-shadow-restricted-names": "error",
     "no-undef-init": "error",
     "no-undef": "error",
-    "no-undefined": "error",
+    "no-undefined": "off",
     "no-unused-vars": "off",
     "no-use-before-define": "off",
     "handle-callback-err": "error",
@@ -698,6 +698,7 @@
     "unicorn/no-thenable": "error",
     "unicorn/no-useless-promise-resolve-reject": "error",
     "unicorn/prefer-json-parse-buffer": "error",
-    "unicorn/relative-url-style": "error"
+    "unicorn/relative-url-style": "error",
+    "unicorn/text-encoding-identifier-case": "error"
   }
 }
