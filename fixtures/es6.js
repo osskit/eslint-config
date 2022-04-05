@@ -13,3 +13,9 @@ export const array2 = [
 const x = {};
 
 export const b = {...x};
+
+export const headers = {
+  'a': 'header1',
+  'x-api-data': 'header2',
+  'x-b3-something': 'header3',
+}
