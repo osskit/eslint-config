@@ -531,6 +531,14 @@
           "UPPER_CASE",
           "PascalCase"
         ]
+      },
+      {
+        "selector": "objectLiteralProperty",
+        "format": null,
+        "filter": {
+          "regex": "^x-",
+          "match": true
+        }
       }
     ],
     "@typescript-eslint/no-dynamic-delete": "off",
@@ -699,6 +707,13 @@
     "unicorn/no-useless-promise-resolve-reject": "error",
     "unicorn/prefer-json-parse-buffer": "error",
     "unicorn/relative-url-style": "error",
-    "unicorn/text-encoding-identifier-case": "error"
+    "unicorn/text-encoding-identifier-case": "error",
+    "@typescript-eslint/no-redundant-type-constituents": "error",
+    "@typescript-eslint/no-useless-empty-export" : "error",
+    "@typescript-eslint/space-before-blocks": "off",
+    "unicorn/no-unreadable-iife": "error",
+    "unicorn/no-useless-switch-case": "error",
+    "unicorn/prefer-modern-math-apis": "error",
+    "unicorn/prefer-native-coercion-functions": "error"
   }
 }
