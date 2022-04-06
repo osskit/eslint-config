@@ -708,7 +708,7 @@
     "unicorn/prefer-json-parse-buffer": "error",
     "unicorn/relative-url-style": "error",
     "unicorn/text-encoding-identifier-case": "error",
-    "@typescript-eslint/no-redundant-type-constituents": "error",
+    "@typescript-eslint/no-redundant-type-constituents": "off",
     "@typescript-eslint/no-useless-empty-export" : "error",
     "@typescript-eslint/space-before-blocks": "off",
     "unicorn/no-unreadable-iife": "error",
