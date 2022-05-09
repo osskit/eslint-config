@@ -714,6 +714,9 @@
     "unicorn/no-unreadable-iife": "error",
     "unicorn/no-useless-switch-case": "error",
     "unicorn/prefer-modern-math-apis": "error",
-    "unicorn/prefer-native-coercion-functions": "error"
+    "unicorn/prefer-native-coercion-functions": "error",
+    "no-constant-binary-expression": "error",
+    "@typescript-eslint/no-duplicate-enum-values": "error",
+    "@typescript-eslint/parameter-properties": "error"
   }
 }
