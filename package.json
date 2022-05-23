@@ -1,6 +1,6 @@
 {
   "name": "@osskit/eslint-config",
-  "version": "0.0.11",
+  "version": "1.0.0",
   "description": "The eslint config used by osskit",
   "main": "eslint.json",
   "scripts": {
@@ -13,7 +13,7 @@
     "lint-react-test": "eslint ./fixtures/react-test.js -c ./react-test.json",
     "lint-react-native": "eslint ./fixtures/react-native.js -c ./react-native.json",
     "lint-react-native-test": "eslint ./fixtures/react-native-test.js -c ./react-native-test.json",
-    "find-new-rules": "eslint-find-rules --unused ./eslint.json && eslint-find-rules --unused ./react.json && eslint-find-rules --unused ./react-native.json",
+    "find-new-rules": "eslint-find-rules --unused ./eslint.json && eslint-find-rules --unused ./react.json && eslint-find-rules --unused ./react-native.json && eslint-find-rules --unused ./test.json",
     "prepare": "husky install"
   },
   "repository": {
@@ -35,7 +35,10 @@
     "url": "https://github.com/osskit/eslint-config/issues"
   },
   "homepage": "https://github.com/osskit/eslint-config#readme",
-  "files": ["*.json"],
+  "files": [
+    "*.json",
+    "!tsconfig.json"
+  ],
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.25.0",
     "@typescript-eslint/parser": "^5.25.0",
