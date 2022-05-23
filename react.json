@@ -152,6 +152,7 @@
     "react/no-invalid-html-attribute": "error",
     "react/no-unused-class-component-methods": "error",
     "react/hook-use-state": "error",
-    "react/iframe-missing-sandbox": "error"
+    "react/iframe-missing-sandbox": "error",
+    "react/jsx-no-leaked-render": "error"
   }
 }

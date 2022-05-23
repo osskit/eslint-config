@@ -1,4 +1,4 @@
-import calc from './es6';
+import calc from './es6.js';
 
 describe('test', () => {
   it('case', () => {
