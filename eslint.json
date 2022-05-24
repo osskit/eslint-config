@@ -358,7 +358,7 @@
     "import/no-nodejs-modules": "off",
     "import/no-restricted-paths": "off",
     "import/no-unassigned-import": "off",
-    "import/no-unresolved": "error",
+    "import/no-unresolved": "off",
     "import/no-webpack-loader-syntax": "off",
     "import/order": "error",
     "import/prefer-default-export": "off",

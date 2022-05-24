@@ -1,3 +1,3 @@
-import React from 'react'; // eslint-disable-line import/no-extraneous-dependencies,import/no-unresolved
+import React from 'react'; // eslint-disable-line import/no-extraneous-dependencies
 
 export default () => <span aria-label='lol'>{'lol'}</span>;
