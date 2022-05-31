@@ -181,7 +181,7 @@
     "consistent-return": "off",
     "default-case": "off",
     "eol-last": "off",
-    "func-call-spacing": "error",
+    "func-call-spacing": "off",
     "func-names": [
       "error",
       "never"
