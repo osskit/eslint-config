@@ -38,6 +38,14 @@
         ],
         "leadingUnderscore": "allow",
         "trailingUnderscore": "allow"
+      },
+      {
+        "selector": "objectLiteralProperty",
+        "format": null,
+        "filter": {
+          "regex": "^x-",
+          "match": true
+        }
       }
     ],
     "react/jsx-boolean-value": [
