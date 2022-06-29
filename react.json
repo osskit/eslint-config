@@ -40,6 +40,20 @@
         "trailingUnderscore": "allow"
       },
       {
+        "selector": "typeLike",
+        "format": [
+          "PascalCase"
+        ]
+      },
+      {
+        "selector": "enumMember",
+        "format": [
+          "camelCase",
+          "UPPER_CASE",
+          "PascalCase"
+        ]
+      },
+      {
         "selector": "objectLiteralProperty",
         "format": null,
         "filter": {
@@ -88,7 +102,10 @@
     "react/no-render-return-value": "error",
     "react/no-string-refs": "error",
     "react/no-unknown-property": "error",
-    "react/prefer-es6-class": ["error", "always"],
+    "react/prefer-es6-class": [
+      "error",
+      "always"
+    ],
     "react/prefer-stateless-function": "error",
     "react/react-in-jsx-scope": "error",
     "react/require-render-return": "error",
@@ -136,7 +153,10 @@
     "react/no-this-in-sfc": "error",
     "react/no-unsafe": "error",
     "react/jsx-props-no-multi-spaces": "error",
-    "react/jsx-fragments": ["error", "syntax"],
+    "react/jsx-fragments": [
+      "error",
+      "syntax"
+    ],
     "react/jsx-curly-newline": "error",
     "react/jsx-no-useless-fragment": "error",
     "react/jsx-props-no-spreading": "off",
@@ -146,7 +166,12 @@
     "react/function-component-definition": "off",
     "react/jsx-no-script-url": "error",
     "react/no-adjacent-inline-elements": "error",
-    "react/jsx-newline": ["error", { "prevent": true }],
+    "react/jsx-newline": [
+      "error",
+      {
+        "prevent": true
+      }
+    ],
     "react/jsx-no-constructed-context-values": "error",
     "react/no-unstable-nested-components": "error",
     "react/no-namespace": "error",
