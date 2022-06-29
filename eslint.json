@@ -175,7 +175,10 @@
     "prefer-template": "error",
     "require-yield": "error",
     "array-callback-return": "error",
-    "arrow-body-style": ["error","as-needed"],
+    "arrow-body-style": [
+      "error",
+      "as-needed"
+    ],
     "class-methods-use-this": "off",
     "complexity": "off",
     "consistent-return": "off",
@@ -294,7 +297,10 @@
     "import/default": "error",
     "import/export": "error",
     "import/exports-last": "off",
-    "import/extensions": ["error", "always"],
+    "import/extensions": [
+      "error",
+      "always"
+    ],
     "import/first": "error",
     "import/max-dependencies": "off",
     "import/named": "error",
@@ -413,7 +419,10 @@
     "@typescript-eslint/quotes": [
       "error",
       "single",
-      { "avoidEscape": true, "allowTemplateLiterals": false }
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": false
+      }
     ],
     "@typescript-eslint/require-await": "off",
     "@typescript-eslint/semi": "off",
@@ -643,7 +652,7 @@
     "unicorn/relative-url-style": "error",
     "unicorn/text-encoding-identifier-case": "error",
     "@typescript-eslint/no-redundant-type-constituents": "error",
-    "@typescript-eslint/no-useless-empty-export" : "error",
+    "@typescript-eslint/no-useless-empty-export": "error",
     "@typescript-eslint/space-before-blocks": "off",
     "unicorn/no-unreadable-iife": "error",
     "unicorn/no-useless-switch-case": "error",
@@ -651,6 +660,7 @@
     "unicorn/prefer-native-coercion-functions": "error",
     "no-constant-binary-expression": "error",
     "@typescript-eslint/no-duplicate-enum-values": "error",
-    "@typescript-eslint/parameter-properties": "error"
+    "@typescript-eslint/parameter-properties": "error",
+    "@typescript-eslint/consistent-generic-constructors": "error"
   }
 }
