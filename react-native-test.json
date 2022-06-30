@@ -1,6 +1,3 @@
 {
-  "extends": [
-    "./test.json",
-    "./react-native.json"
-  ]
+  "extends": ["./test.json", "./react-native.json"]
 }

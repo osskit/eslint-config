@@ -1,0 +1,5 @@
+{
+  "jsonRecursiveSort": true,
+  "pluginSearchDirs": ["./"],
+  "plugins": ["prettier-plugin-sort-json"]
+}

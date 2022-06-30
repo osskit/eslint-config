@@ -1,21 +1,19 @@
 {
+  "env": {
+    "jest": true
+  },
   "extends": "./eslint.json",
   "parserOptions": {
     "createDefaultProgram": true
   },
-  "env": {
-    "jest": true
-  },
-  "plugins": [
-    "jest"
-  ],
-  "settings": {
-    "jest": {
-      "version": 27
-    }
-  },
+  "plugins": ["jest"],
   "rules": {
-    "jest/consistent-test-it": ["error", {"fn": "it"}],
+    "jest/consistent-test-it": [
+      "error",
+      {
+        "fn": "it"
+      }
+    ],
     "jest/expect-expect": "error",
     "jest/max-nested-describe": "error",
     "jest/no-alias-methods": "error",
@@ -62,5 +60,10 @@
     "jest/valid-expect": "error",
     "jest/valid-expect-in-promise": "error",
     "jest/valid-title": "error"
+  },
+  "settings": {
+    "jest": {
+      "version": 28
+    }
   }
 }
