@@ -1,6 +1,6 @@
 {
   "name": "@osskit/eslint-config",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "The eslint config used by osskit",
   "main": "eslint.json",
   "scripts": {
@@ -15,6 +15,7 @@
     "lint-react-native-test": "eslint ./fixtures/react-native-test.js -c ./react-native-test.json",
     "find-rules": "eslint-find-rules --unused --deprecated",
     "find-rules-all": "yarn find-rules ./eslint.json && yarn find-rules ./react.json && yarn find-rules ./react-native.json && yarn find-rules ./test.json",
+    "format": "prettier --write '**/*.{ts,js,json}'",
     "prepare": "husky install"
   },
   "repository": {
@@ -41,6 +42,8 @@
     "!tsconfig.json"
   ],
   "devDependencies": {
+    "@osskit/prettier-config": "^0.0.1",
+    "@osskit/tsconfig": "^0.0.3",
     "@typescript-eslint/eslint-plugin": "^5.30.0",
     "@typescript-eslint/parser": "^5.30.0",
     "eslint": "^8.18.0",
@@ -53,6 +56,8 @@
     "eslint-plugin-unicorn": "^42.0.0",
     "husky": "^8.0.1",
     "npm-run-all": "^4.1.5",
+    "prettier": "^2.7.1",
+    "prettier-plugin-sort-json": "^0.0.2",
     "typescript": "^4.7.4"
   },
   "peerDependencies": {
