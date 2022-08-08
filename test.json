@@ -15,6 +15,7 @@
       }
     ],
     "jest/expect-expect": "error",
+    "jest/max-expects": "error",
     "jest/max-nested-describe": "error",
     "jest/no-alias-methods": "error",
     "jest/no-commented-out-tests": "error",
@@ -45,6 +46,7 @@
     "jest/prefer-hooks-in-order": "error",
     "jest/prefer-hooks-on-top": "error",
     "jest/prefer-lowercase-title": "error",
+    "jest/prefer-mock-promise-shorthand": "error",
     "jest/prefer-snapshot-hint": "off",
     "jest/prefer-spy-on": "error",
     "jest/prefer-strict-equal": "error",
