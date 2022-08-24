@@ -15,7 +15,7 @@
       }
     ],
     "jest/expect-expect": "error",
-    "jest/max-expects": "error",
+    "jest/max-expects": "off",
     "jest/max-nested-describe": "error",
     "jest/no-alias-methods": "error",
     "jest/no-commented-out-tests": "error",

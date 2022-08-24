@@ -1,6 +1,6 @@
 {
   "name": "@osskit/eslint-config",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "The eslint config used by osskit",
   "main": "eslint.json",
   "scripts": {
@@ -44,12 +44,12 @@
   "devDependencies": {
     "@osskit/prettier-config": "^0.0.1",
     "@osskit/tsconfig": "^0.0.6",
-    "@typescript-eslint/eslint-plugin": "^5.32.0",
-    "@typescript-eslint/parser": "^5.32.0",
-    "eslint": "^8.21.0",
+    "@typescript-eslint/eslint-plugin": "^5.34.0",
+    "@typescript-eslint/parser": "^5.34.0",
+    "eslint": "^8.22.0",
     "eslint-find-rules": "^4.1.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jest": "^26.8.0",
+    "eslint-plugin-jest": "^26.8.7",
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-native": "^4.0.0",
@@ -58,11 +58,11 @@
     "lint-staged": "^13.0.3",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.7.1",
-    "prettier-plugin-sort-json": "^0.0.2",
+    "prettier-plugin-sort-json": "^0.0.3",
     "typescript": "^4.7.4"
   },
   "peerDependencies": {
-    "eslint": "^8.21.0"
+    "eslint": "^8.22.0"
   },
   "lint-staged": {
     "*.{ts,tsx}": "eslint --fix",
