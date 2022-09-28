@@ -283,6 +283,7 @@
     "linebreak-style": "off",
     "lines-around-comment": "off",
     "lines-between-class-members": "off",
+    "logical-assignment-operators": "error",
     "max-classes-per-file": "off",
     "max-depth": "off",
     "max-len": "off",
@@ -347,7 +348,13 @@
     "no-floating-decimal": "off",
     "no-func-assign": "error",
     "no-global-assign": "error",
-    "no-implicit-coercion": "off",
+    "no-implicit-coercion": [
+      "error",
+      {
+        "allow": ["!!"],
+        "disallowTemplateShorthand": true
+      }
+    ],
     "no-implicit-globals": "error",
     "no-implied-eval": "error",
     "no-import-assign": "error",
