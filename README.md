@@ -43,7 +43,7 @@ This package exposes additional configs.
 
 #### Test [`@osskit/eslint-config/test`](test.json)
 
-Use this for your jest tests
+Use this for your Jest tests
 
 ```json
 {
@@ -73,7 +73,7 @@ $ npm install --save-dev eslint-plugin-react eslint-plugin-react-hooks
 
 #### React Test [`@osskit/eslint-config/react-test`](react-test.json)
 
-Use this for your react jest tests
+Use this for your React Jest tests
 
 ```json
 {
@@ -103,7 +103,7 @@ $ npm install --save-dev eslint-plugin-react eslint-plugin-react-native eslint-p
 
 #### React Native Test [`@osskit/eslint-config/react-native-test`](react-native-test.json)
 
-Use this for your react native jest tests
+Use this for your React Native Jest tests
 
 ```json
 {

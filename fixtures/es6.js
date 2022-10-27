@@ -12,6 +12,9 @@ const x = {};
 
 export const b = { ...x };
 
+export const parsedNumberDecimal = Number.parseInt('777');
+export const parsedNumberQuinary = Number.parseInt('11102', 5);
+
 export const headers = {
   a: 'header1',
   'x-api-data': 'header2',
