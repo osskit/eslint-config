@@ -60,7 +60,7 @@
     "react/jsx-child-element-spacing": "off",
     "react/jsx-closing-bracket-location": "error",
     "react/jsx-closing-tag-location": "error",
-    "react/jsx-curly-brace-presence": "off",
+    "react/jsx-curly-brace-presence": ["error", { "props": "always", "children": "always" }],
     "react/jsx-curly-newline": "error",
     "react/jsx-curly-spacing": "error",
     "react/jsx-equals-spacing": "error",
