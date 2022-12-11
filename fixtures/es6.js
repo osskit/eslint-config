@@ -24,5 +24,5 @@ export const headers = {
 let y;
 
 if (y === undefined) {
-  console.log('x is undefined');
+  console.log('y is undefined');
 }
