@@ -20,3 +20,9 @@ export const headers = {
   'x-api-data': 'header2',
   'x-b3-something': 'header3',
 };
+
+let y;
+
+if (y === undefined) {
+  console.log('y is undefined');
+}
