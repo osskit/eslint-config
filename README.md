@@ -4,7 +4,7 @@
 
 ## Install
 
-```
+```shell
 $ npm install --save-dev @osskit/eslint-config
 ```
 
@@ -12,8 +12,8 @@ $ npm install --save-dev @osskit/eslint-config
 
 This config uses several plugins:
 
-```
-$ npm install --save-dev eslint-plugin-import eslint-plugin-unicorn @typescript-eslint/eslint-plugin
+```shell
+$ npm install --save-dev eslint-plugin-import eslint-plugin-unicorn @typescript-eslint/eslint-plugin @typescript-eslint/parser
 ```
 
 ## Usage
@@ -53,7 +53,7 @@ Use this for your Jest tests
 
 Install the plugin:
 
-```
+```shell
 $ npm install --save-dev eslint-plugin-jest
 ```
 
@@ -67,7 +67,7 @@ $ npm install --save-dev eslint-plugin-jest
 
 Install the plugins:
 
-```
+```shell
 $ npm install --save-dev eslint-plugin-react eslint-plugin-react-hooks
 ```
 
@@ -83,7 +83,7 @@ Use this for your React Jest tests
 
 Install the plugins:
 
-```
+```shell
 $ npm install --save-dev eslint-plugin-jest eslint-plugin-react eslint-plugin-react-hooks
 ```
 
@@ -97,7 +97,7 @@ $ npm install --save-dev eslint-plugin-jest eslint-plugin-react eslint-plugin-re
 
 Install the plugins:
 
-```
+```shell
 $ npm install --save-dev eslint-plugin-react eslint-plugin-react-native eslint-plugin-react-hooks
 ```
 
@@ -113,6 +113,6 @@ Use this for your React Native Jest tests
 
 Install the plugins:
 
-```
+```shell
 $ npm install --save-dev eslint-plugin-jest eslint-plugin-react eslint-plugin-react-native eslint-plugin-react-hooks
 ```

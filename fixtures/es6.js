@@ -26,3 +26,9 @@ let y;
 if (y === undefined) {
   console.log('y is undefined');
 }
+
+export const funcWithShadowVar = () => {
+  const y = 'shadow var name';
+
+  return y;
+};
