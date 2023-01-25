@@ -38,7 +38,7 @@
     "jest/no-standalone-expect": "error",
     "jest/no-test-prefixes": "off",
     "jest/no-test-return-statement": "error",
-    "jest/no-untyped-mock-factory": "off",
+    "jest/no-untyped-mock-factory": "error",
     "jest/prefer-called-with": "off",
     "jest/prefer-comparison-matcher": "error",
     "jest/prefer-each": "error",
