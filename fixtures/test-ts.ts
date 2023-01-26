@@ -1,4 +1,4 @@
-jest.mock<typeof import('./ts')>('./ts', () => ({
+jest.mock('./ts', () => ({
   ...jest.requireActual('./ts'),
   bar: () => 'baz',
 }));
