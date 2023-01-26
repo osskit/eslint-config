@@ -8,7 +8,7 @@
     "lint": "run-p lint-*",
     "lint-eslint": "eslint ./fixtures/es6.js -c ./eslint.json",
     "lint-typescript": "eslint ./fixtures/ts.ts -c ./eslint.json",
-    "lint-test": "eslint ./fixtures/test.js -c ./test.json",
+    "lint-test": "eslint ./fixtures/test.js ./fixtures/test-ts.ts -c ./test.json",
     "lint-react": "eslint ./fixtures/react.js -c ./react.json",
     "lint-react-test": "eslint ./fixtures/react-test.js -c ./react-test.json",
     "lint-react-native": "eslint ./fixtures/react-native.js -c ./react-native.json",

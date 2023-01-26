@@ -17,4 +17,6 @@ const x = {};
 
 export const b = { ...x };
 
+export const bar = () => 'bar';
+
 console.log(foo);
