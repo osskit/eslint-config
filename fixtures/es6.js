@@ -16,9 +16,10 @@ export const parsedNumberDecimal = Number.parseInt('777');
 export const parsedNumberQuinary = Number.parseInt('11102', 5);
 
 export const headers = {
-  a: 'header1',
+  camelCaseHeader: 'header1',
   'x-api-data': 'header2',
   'x-b3-something': 'header3',
+  'Content-Type': 'application/json',
 };
 
 let y;
