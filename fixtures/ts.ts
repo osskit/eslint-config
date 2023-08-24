@@ -1,3 +1,6 @@
+import { join } from 'node:path';
+import { x } from './module.js';
+
 export default function ({ a, b }: { a: number; b: number }) {
   return a + b;
 }
@@ -13,10 +16,12 @@ interface Foo {
 
 let foo: Foo | undefined;
 
-const x = {};
+console.log(x);
 
-export const b = { ...x };
+const object = {};
 
-export const bar = () => 'bar';
+export const b = { ...object };
+
+export const bar = () => join('bar', 'baz');
 
 console.log(foo);
