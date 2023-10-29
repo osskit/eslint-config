@@ -1,5 +1,6 @@
 import { join } from 'node:path';
 import { x } from './module.js';
+import MyClass from './MyClass.js';
 
 export default function ({ a, b }: { a: number; b: number }) {
   return a + b;
@@ -25,3 +26,7 @@ export const b = { ...object };
 export const bar = () => join('bar', 'baz');
 
 console.log(foo);
+
+const a = new MyClass();
+
+console.log(a);
