@@ -19,14 +19,34 @@ let foo: Foo | undefined;
 
 console.log(x);
 
-const object = {};
+const object = {
+  dog: 'Woof',
+  cat: 'Meow',
+  horse: 'Neigh',
+};
 
-export const b = { ...object };
+const { dog: _, ...objectWithoutDog } = object;
 
 export const bar = () => join('bar', 'baz');
 
-console.log(foo);
-
 const a = new MyClass();
 
-console.log(a);
+console.log(foo, a, objectWithoutDog);
+
+enum Fruit {
+  Apple = 'Apple',
+  Banana = 'Banana',
+}
+
+declare const fruit: Fruit;
+
+switch (fruit) {
+  case Fruit.Apple: {
+    console.log('an apple');
+    break;
+  }
+  case Fruit.Banana: {
+    console.log('a banana');
+    break;
+  }
+}
