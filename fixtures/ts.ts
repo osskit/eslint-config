@@ -2,9 +2,11 @@ import { join } from 'node:path';
 import { x } from './module.js';
 import MyClass from './MyClass.js';
 
-export default function ({ a, b }: { a: number; b: number }) {
+const add = function ({ a, b }: { a: number; b: number }) {
   return a + b;
-}
+};
+
+export default add;
 
 export const array = [1, 2];
 
