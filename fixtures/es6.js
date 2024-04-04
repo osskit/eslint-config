@@ -1,6 +1,8 @@
-export default function ({ a, b }) {
+const add = function ({ a, b }) {
   return a + b;
-}
+};
+
+export default add;
 
 export const asyncCalc = async ({ a, b }) => a + b;
 
