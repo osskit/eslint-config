@@ -44,9 +44,9 @@
   "devDependencies": {
     "@osskit/prettier-config": "^0.0.1",
     "@osskit/tsconfig": "^0.0.7",
-    "@types/node": "^20.14.2",
-    "@typescript-eslint/eslint-plugin": "^7.13.0",
-    "@typescript-eslint/parser": "^7.13.0",
+    "@types/node": "^20.14.4",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
     "eslint": "^8.57.0",
     "eslint-find-rules": "^4.1.0",
     "eslint-plugin-import": "^2.29.1",
