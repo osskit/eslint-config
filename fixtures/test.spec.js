@@ -1,3 +1,4 @@
+import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from 'vitest';
 import calc, { asyncCalc } from './es6.js';
 
 describe('test', () => {

@@ -1,20 +1,26 @@
 {
   "name": "@osskit/eslint-config",
-  "version": "1.0.26",
+  "version": "2.0.0",
   "description": "The ESLint config used by osskit",
-  "main": "eslint.json",
+  "main": "eslint.config.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./eslint.config.js"
+    }
+  },
   "scripts": {
-    "test": "run-s lint find-rules-all",
+    "test": "run-s lint",
     "lint": "run-p lint-*",
-    "lint-eslint": "eslint ./fixtures/es6.js -c ./eslint.json",
-    "lint-typescript": "eslint ./fixtures/ts.ts -c ./eslint.json",
-    "lint-test": "eslint ./fixtures/test.js ./fixtures/test-ts.ts -c ./test.json",
-    "lint-react": "eslint ./fixtures/react.js -c ./react.json",
-    "lint-react-test": "eslint ./fixtures/react-test.js -c ./react-test.json",
-    "lint-react-native": "eslint ./fixtures/react-native.js -c ./react-native.json",
-    "lint-react-native-test": "eslint ./fixtures/react-native-test.js -c ./react-native-test.json",
-    "find-rules": "eslint-find-rules --unused --deprecated",
-    "find-rules-all": "yarn find-rules ./eslint.json && yarn find-rules ./react.json && yarn find-rules ./react-native.json && yarn find-rules ./test.json",
+    "lint-eslint": "eslint ./fixtures/es6.js -c ./sampleConfigs/base.config.js",
+    "lint-typescript": "eslint ./fixtures/ts.ts -c ./sampleConfigs/base.config.js",
+    "lint-test": "eslint ./fixtures/test.spec.js ./fixtures/test-ts.spec.ts -c ./sampleConfigs/test.config.js",
+    "lint-react": "eslint ./fixtures/react.js -c ./sampleConfigs/react.config.js",
+    "lint-react-test": "eslint ./fixtures/react-test.spec.js -c ./sampleConfigs/react-test.config.js",
+    "inspect-base": "eslint-config-inspector --config ./sampleConfigs/base.config.js",
+    "inspect-test": "eslint-config-inspector --config ./sampleConfigs/test.config.js",
+    "inspect-react": "eslint-config-inspector --config ./sampleConfigs/react.config.js",
+    "inspect-react-test": "eslint-config-inspector --config ./sampleConfigs/react-test.config.js",
     "format": "prettier --write '**/*.{ts,js,json,yml}'",
     "prepare": "husky"
   },
@@ -38,34 +44,34 @@
   },
   "homepage": "https://github.com/osskit/eslint-config#readme",
   "files": [
-    "*.json",
-    "!tsconfig.json"
+    "*.js"
   ],
   "devDependencies": {
+    "@eslint/config-inspector": "^0.5.1",
     "@osskit/prettier-config": "^0.0.1",
     "@osskit/tsconfig": "^0.0.7",
-    "@types/node": "^20.14.4",
-    "@typescript-eslint/eslint-plugin": "^7.13.1",
-    "@typescript-eslint/parser": "^7.13.1",
-    "eslint": "^8.57.0",
-    "eslint-find-rules": "^4.1.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-jest": "^28.6.0",
-    "eslint-plugin-react": "^7.34.2",
-    "eslint-plugin-react-hooks": "^4.6.2",
-    "eslint-plugin-react-native": "^4.1.0",
-    "eslint-plugin-unicorn": "^54.0.0",
+    "@types/node": "^20.14.10",
+    "eslint": "^9.7.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.7",
     "npm-run-all": "^4.1.5",
-    "prettier": "^3.3.2",
-    "prettier-plugin-sort-json": "^4.0.0",
-    "typescript": "^5.4.5"
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.3"
   },
   "peerDependencies": {
-    "eslint": "^8.57.0"
+    "eslint": "^9.0.0"
   },
   "lint-staged": {
     "*.{ts,js,json,yml}": "prettier --write"
+  },
+  "dependencies": {
+    "eslint-plugin-import-x": "^3.0.1",
+    "eslint-plugin-jest": "^28.6.0",
+    "eslint-plugin-react": "^7.34.4",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-unicorn": "^54.0.0",
+    "eslint-plugin-vitest": "^0.5.4",
+    "globals": "^15.8.0",
+    "typescript-eslint": "^7.16.1"
   }
 }

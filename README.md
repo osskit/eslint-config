@@ -7,112 +7,66 @@
 ```shell
 $ npm install --save-dev @osskit/eslint-config
 ```
-
-## Plugins
-
-This config uses several plugins:
-
 ```shell
-$ npm install --save-dev eslint-plugin-import eslint-plugin-unicorn @typescript-eslint/eslint-plugin @typescript-eslint/parser
+$ yarn add --dev @osskit/eslint-config
 ```
 
 ## Usage
 
-Create an `.eslintrc` file:
+Create an `eslint.config.js` file:
 
-```json
-{
-  "extends": "@osskit"
-}
-```
+```js
+import config from '@osskit/eslint-config';
 
-Or add the ESLint config to your `package.json`:
-
-```json
-{
-  "name": "my-awesome-project",
-  "eslintConfig": {
-    "extends": "@osskit"
-  }
-}
+export default [
+  ...config,
+];
 ```
 
 ### Additional Configs
 
 This package exposes additional configs.
 
-#### Test [`@osskit/eslint-config/test`](test.json)
+#### Test [`@osskit/eslint-config/test.js`](test.js)
 
-Use this for your Jest tests
+Use this for your vitest tests
 
-```json
-{
-  "extends": "@osskit/eslint-config/test"
-}
+```js
+import config from '@osskit/eslint-config';
+import testConfig from '@osskit/eslint-config/test.js';
+
+export default [
+  ...config,
+  ...testConfig,
+];
 ```
 
-Install the plugin:
+#### React [`@osskit/eslint-config/react.js`](react.js)
 
-```shell
-$ npm install --save-dev eslint-plugin-jest
+Use this for your React projects
+
+```js
+import config from '@osskit/eslint-config';
+import reactConfig from '@osskit/eslint-config/react.js';
+
+export default [
+  ...config,
+  ...reactConfig,
+];
 ```
 
-#### React [`@osskit/eslint-config/react`](react.json)
+#### React Test [`@osskit/eslint-config/react-test.js`](react-test.js)
 
-```json
-{
-  "extends": "@osskit/eslint-config/react"
-}
-```
+Use this for your React tests
 
-Install the plugins:
+```js
+import config from '@osskit/eslint-config';
+import reactConfig from '@osskit/eslint-config/react.js';
+import testConfig from '@osskit/eslint-config/test.js';
 
-```shell
-$ npm install --save-dev eslint-plugin-react eslint-plugin-react-hooks
-```
-
-#### React Test [`@osskit/eslint-config/react-test`](react-test.json)
-
-Use this for your React Jest tests
-
-```json
-{
-  "extends": "@osskit/eslint-config/react-test"
-}
-```
-
-Install the plugins:
-
-```shell
-$ npm install --save-dev eslint-plugin-jest eslint-plugin-react eslint-plugin-react-hooks
-```
-
-#### React Native [`@osskit/eslint-config/react-native`](react-native.json)
-
-```json
-{
-  "extends": "@osskit/eslint-config/react-native"
-}
-```
-
-Install the plugins:
-
-```shell
-$ npm install --save-dev eslint-plugin-react eslint-plugin-react-native eslint-plugin-react-hooks
-```
-
-#### React Native Test [`@osskit/eslint-config/react-native-test`](react-native-test.json)
-
-Use this for your React Native Jest tests
-
-```json
-{
-  "extends": "@osskit/eslint-config/react-native-test"
-}
-```
-
-Install the plugins:
-
-```shell
-$ npm install --save-dev eslint-plugin-jest eslint-plugin-react eslint-plugin-react-native eslint-plugin-react-hooks
+export default [
+  ...config,
+  ...reactConfig,
+  ...testConfig,
+];
 ```
