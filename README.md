@@ -29,7 +29,7 @@ This package exposes additional configs.
 
 #### Test [`@osskit/eslint-config/test.js`](test.js)
 
-Use this for your vitest tests
+Use this for your Vitest tests
 
 ```js
 import config from '@osskit/eslint-config';
@@ -55,7 +55,7 @@ export default [
 ];
 ```
 
-#### React Test [`@osskit/eslint-config/react-test.js`](react-test.js)
+#### React Test [`@osskit/eslint-config/react.js`](react.js) & [`@osskit/eslint-config/test.js`](test.js)
 
 Use this for your React tests
 

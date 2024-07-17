@@ -46,6 +46,15 @@
   "files": [
     "*.js"
   ],
+  "dependencies": {
+    "eslint-plugin-import-x": "^3.0.1",
+    "eslint-plugin-react": "^7.34.4",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-unicorn": "^54.0.0",
+    "eslint-plugin-vitest": "^0.5.4",
+    "globals": "^15.8.0",
+    "typescript-eslint": "^7.16.1"
+  },
   "devDependencies": {
     "@eslint/config-inspector": "^0.5.1",
     "@osskit/prettier-config": "^0.0.1",
@@ -63,14 +72,5 @@
   },
   "lint-staged": {
     "*.{ts,js,json,yml}": "prettier --write"
-  },
-  "dependencies": {
-    "eslint-plugin-import-x": "^3.0.1",
-    "eslint-plugin-react": "^7.34.4",
-    "eslint-plugin-react-hooks": "^4.6.2",
-    "eslint-plugin-unicorn": "^54.0.0",
-    "eslint-plugin-vitest": "^0.5.4",
-    "globals": "^15.8.0",
-    "typescript-eslint": "^7.16.1"
   }
 }
