@@ -10,7 +10,7 @@
     }
   },
   "scripts": {
-    "test": "run-s lint",
+    "test": "yarn lint",
     "lint": "run-p lint-*",
     "lint-eslint": "eslint ./fixtures/es6.js -c ./sampleConfigs/base.config.js",
     "lint-typescript": "eslint ./fixtures/ts.ts -c ./sampleConfigs/base.config.js",
