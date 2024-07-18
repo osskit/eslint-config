@@ -1,4 +1,3 @@
-import config from '../eslint.config.js';
-import testConfig from '../test.js';
+import { baseConfig, testConfig } from '../src/index.js';
 
-export default [...config, ...testConfig];
+export default [baseConfig, testConfig];

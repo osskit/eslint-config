@@ -1,4 +1,3 @@
-import config from '../eslint.config.js';
-import reactConfig from '../react.js';
+import { baseConfig, reactConfig } from '../src/index.js';
 
-export default [...config, ...reactConfig];
+export default [baseConfig, reactConfig];

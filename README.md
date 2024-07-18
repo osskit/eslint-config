@@ -16,10 +16,10 @@ $ yarn add --dev @osskit/eslint-config
 Create an `eslint.config.js` file:
 
 ```js
-import config from '@osskit/eslint-config';
+import {baseConfig} from '@osskit/eslint-config';
 
 export default [
-  ...config,
+  baseConfig,
 ];
 ```
 
@@ -27,46 +27,42 @@ export default [
 
 This package exposes additional configs.
 
-#### Test [`@osskit/eslint-config/test.js`](test.js)
+#### [`Test`](src/test.js)
 
 Use this for your Vitest tests
 
 ```js
-import config from '@osskit/eslint-config';
-import testConfig from '@osskit/eslint-config/test.js';
+import {baseConfig, testConfig} from '@osskit/eslint-config';
 
 export default [
-  ...config,
-  ...testConfig,
+  baseConfig,
+  testConfig,
 ];
 ```
 
-#### React [`@osskit/eslint-config/react.js`](react.js)
+#### [`React`](src/react.js)
 
 Use this for your React projects
 
 ```js
-import config from '@osskit/eslint-config';
-import reactConfig from '@osskit/eslint-config/react.js';
+import {baseConfig, reactConfig} from '@osskit/eslint-config';
 
 export default [
-  ...config,
-  ...reactConfig,
+  baseConfig,
+  reactConfig,
 ];
 ```
 
-#### React Test [`@osskit/eslint-config/react.js`](react.js) & [`@osskit/eslint-config/test.js`](test.js)
+#### [`React`](src/react.js) & [`Test`](src/test.js)
 
 Use this for your React tests
 
 ```js
-import config from '@osskit/eslint-config';
-import reactConfig from '@osskit/eslint-config/react.js';
-import testConfig from '@osskit/eslint-config/test.js';
+import {baseConfig, reactConfig, testConfig} from '@osskit/eslint-config';
 
 export default [
-  ...config,
-  ...reactConfig,
-  ...testConfig,
+  baseConfig,
+  reactConfig,
+  testConfig,
 ];
 ```

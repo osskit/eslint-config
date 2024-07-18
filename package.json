@@ -2,11 +2,11 @@
   "name": "@osskit/eslint-config",
   "version": "2.0.1",
   "description": "The ESLint config used by osskit",
-  "main": "eslint.config.js",
+  "main": "src/index.js",
   "type": "module",
   "exports": {
     ".": {
-      "import": "./eslint.config.js"
+      "import": "./src/index.js"
     }
   },
   "scripts": {
@@ -44,7 +44,7 @@
   },
   "homepage": "https://github.com/osskit/eslint-config#readme",
   "files": [
-    "*.js"
+    "src/*.js"
   ],
   "dependencies": {
     "eslint-plugin-import-x": "^3.0.1",

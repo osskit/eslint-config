@@ -1,7 +1,8 @@
 import typescriptEslint from 'typescript-eslint';
 import vitest from 'eslint-plugin-vitest';
 
-export default typescriptEslint.config({
+/** @type {import('@typescript-eslint/utils').TSESLint.FlatConfig.Config} */
+export const testConfig = {
   name: '@osskit/eslint-config/test.js',
   files: ['tests/**', '**/*.spec.ts', '**/*.spec.js'],
   plugins: {
@@ -70,4 +71,4 @@ export default typescriptEslint.config({
       ...vitest.environments.env.globals,
     },
   },
-});
+};

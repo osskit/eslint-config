@@ -1,8 +1,8 @@
 import reactPlugin from 'eslint-plugin-react';
 import reactHooksPlugin from 'eslint-plugin-react-hooks';
-import typescriptEslint from 'typescript-eslint';
 
-export default typescriptEslint.config({
+/** @type {import('@typescript-eslint/utils').TSESLint.FlatConfig.Config} */
+export const reactConfig = {
   name: '@osskit/eslint-config/react.js',
   languageOptions: {
     parserOptions: {
@@ -159,4 +159,4 @@ export default typescriptEslint.config({
       version: 'detect',
     },
   },
-});
+};
