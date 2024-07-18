@@ -5,6 +5,7 @@ import typescriptEslint from 'typescript-eslint';
 import globals from 'globals';
 
 export default typescriptEslint.config({
+  name: '@osskit/eslint-config',
   files: ['**/*.ts', '**/*.cts', '**.*.mts', '**/*.js', '**/*.jsx', '**/*.tsx'],
   languageOptions: {
     globals: {

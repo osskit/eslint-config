@@ -2,6 +2,7 @@ import typescriptEslint from 'typescript-eslint';
 import vitest from 'eslint-plugin-vitest';
 
 export default typescriptEslint.config({
+  name: '@osskit/eslint-config/test.js',
   files: ['tests/**', '**/*.spec.ts', '**/*.spec.js'],
   plugins: {
     vitest,

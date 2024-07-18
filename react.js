@@ -3,6 +3,7 @@ import reactHooksPlugin from 'eslint-plugin-react-hooks';
 import typescriptEslint from 'typescript-eslint';
 
 export default typescriptEslint.config({
+  name: '@osskit/eslint-config/react.js',
   languageOptions: {
     parserOptions: {
       ecmaFeatures: {
