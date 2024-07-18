@@ -1,12 +1,12 @@
 {
   "name": "@osskit/eslint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "The ESLint config used by osskit",
-  "main": "eslint.config.js",
+  "main": "src/index.js",
   "type": "module",
   "exports": {
     ".": {
-      "import": "./eslint.config.js"
+      "import": "./src/index.js"
     }
   },
   "scripts": {
@@ -44,7 +44,7 @@
   },
   "homepage": "https://github.com/osskit/eslint-config#readme",
   "files": [
-    "*.js"
+    "src/*.js"
   ],
   "dependencies": {
     "eslint-plugin-import-x": "^3.0.1",
@@ -56,10 +56,10 @@
     "typescript-eslint": "^7.16.1"
   },
   "devDependencies": {
-    "@eslint/config-inspector": "^0.5.1",
+    "@eslint/config-inspector": "^0.5.2",
     "@osskit/prettier-config": "^0.0.1",
     "@osskit/tsconfig": "^0.0.7",
-    "@types/node": "^20.14.10",
+    "@types/node": "^20.14.11",
     "eslint": "^9.7.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.7",
