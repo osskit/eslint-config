@@ -1,4 +1,4 @@
-import React from 'react'; // eslint-disable-line import/no-extraneous-dependencies
+import React from 'react';
 
 const LolElement = () => <span aria-label={'lol'}>{'lol'}</span>;
 export default LolElement;
