@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "outDir": "dist"
+    "outDir": "dist",
+    "allowJs": true
   },
   "extends": "@osskit/tsconfig",
   "include": ["fixtures/**/*.ts", "fixtures/**/*.js"]

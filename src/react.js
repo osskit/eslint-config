@@ -153,6 +153,7 @@ export const reactConfig = {
     'react/static-property-placement': 'error',
     'react/style-prop-object': 'error',
     'react/void-dom-elements-no-children': 'error',
+    'react/jsx-props-no-spread-multi': 'error',
   },
   settings: {
     react: {
