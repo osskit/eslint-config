@@ -154,6 +154,7 @@ export const reactConfig = {
     'react/style-prop-object': 'error',
     'react/void-dom-elements-no-children': 'error',
     'react/jsx-props-no-spread-multi': 'error',
+    'react/forward-ref-uses-ref': 'error',
   },
   settings: {
     react: {
