@@ -27,6 +27,7 @@ export const baseConfig = {
     '@typescript-eslint': typescriptEslint.plugin,
   },
   rules: {
+    '@typescript-eslint/no-deprecated': 'error',
     '@typescript-eslint/no-unnecessary-type-parameters': 'error',
     '@typescript-eslint/no-unnecessary-parameter-property-assignment': 'error',
     '@typescript-eslint/no-empty-object-type': 'error',
@@ -268,6 +269,7 @@ export const baseConfig = {
     'import-x/order': 'error',
     'import-x/prefer-default-export': 'off',
     'import-x/unambiguous': 'off',
+    'import-x/no-rename-default': 'off',
     'init-declarations': 'off',
     'logical-assignment-operators': 'error',
     'max-classes-per-file': 'off',
