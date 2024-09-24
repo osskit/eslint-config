@@ -1,6 +1,6 @@
 {
   "name": "@osskit/eslint-config",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "The ESLint config used by osskit",
   "main": "src/index.js",
   "type": "module",
@@ -12,11 +12,10 @@
   "scripts": {
     "test": "yarn lint",
     "lint": "run-p lint-*",
-    "lint-eslint": "eslint ./fixtures/es6.js -c ./sampleConfigs/base.config.js",
-    "lint-typescript": "eslint ./fixtures/ts.ts -c ./sampleConfigs/base.config.js",
-    "lint-test": "eslint ./fixtures/test.spec.js ./fixtures/test-ts.spec.ts -c ./sampleConfigs/test.config.js",
-    "lint-react": "eslint ./fixtures/react.js -c ./sampleConfigs/react.config.js",
-    "lint-react-test": "eslint ./fixtures/react-test.spec.js -c ./sampleConfigs/react-test.config.js",
+    "lint-typescript": "eslint . -c ./sampleConfigs/base.config.js",
+    "lint-test": "eslint . -c ./sampleConfigs/test.config.js",
+    "lint-react": "eslint . -c ./sampleConfigs/react.config.js",
+    "lint-react-test": "eslint . -c ./sampleConfigs/react-test.config.js",
     "inspect-base": "eslint-config-inspector --config ./sampleConfigs/base.config.js",
     "inspect-test": "eslint-config-inspector --config ./sampleConfigs/test.config.js",
     "inspect-react": "eslint-config-inspector --config ./sampleConfigs/react.config.js",
@@ -47,20 +46,20 @@
     "src/*.js"
   ],
   "dependencies": {
-    "eslint-plugin-import-x": "^4.2.1",
+    "eslint-plugin-import-x": "^4.3.0",
     "eslint-plugin-react": "^7.36.1",
-    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-hooks": "^5.1.0-rc-5d19e1c8-20240923",
     "eslint-plugin-unicorn": "^55.0.0",
     "eslint-plugin-vitest": "^0.5.4",
     "globals": "^15.9.0",
-    "typescript-eslint": "^8.6.0"
+    "typescript-eslint": "^8.7.0"
   },
   "devDependencies": {
     "@eslint/config-inspector": "^0.5.4",
     "@osskit/prettier-config": "^0.0.1",
     "@osskit/tsconfig": "^0.0.7",
-    "@types/node": "^22.5.5",
-    "eslint": "^9.10.0",
+    "@types/node": "^22.6.1",
+    "eslint": "^9.11.1",
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
     "npm-run-all": "^4.1.5",
