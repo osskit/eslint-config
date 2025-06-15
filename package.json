@@ -1,6 +1,6 @@
 {
   "name": "@osskit/eslint-config",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "The ESLint config used by osskit",
   "main": "src/index.js",
   "type": "module",
