@@ -1,6 +1,6 @@
 {
   "name": "@osskit/eslint-config",
-  "version": "2.0.5",
+  "version": "2.1.0",
   "description": "The ESLint config used by osskit",
   "main": "src/index.js",
   "type": "module",
@@ -46,28 +46,28 @@
     "src/*.js"
   ],
   "dependencies": {
-    "eslint-plugin-import-x": "^4.4.3",
-    "eslint-plugin-react": "^7.37.2",
-    "eslint-plugin-react-hooks": "^5.1.0-rc-5d19e1c8-20240923",
-    "eslint-plugin-unicorn": "^56.0.1",
+    "eslint-plugin-import-x": "^4.15.2",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-unicorn": "^59.0.1",
     "eslint-plugin-vitest": "^0.5.4",
-    "globals": "^15.12.0",
-    "typescript-eslint": "^8.16.0"
+    "globals": "^16.2.0",
+    "typescript-eslint": "^8.34.0"
   },
   "devDependencies": {
-    "@eslint/config-inspector": "^0.5.6",
+    "@eslint/config-inspector": "^1.1.0",
     "@osskit/prettier-config": "^0.0.1",
     "@osskit/tsconfig": "^0.0.7",
-    "@types/node": "^22.10.1",
+    "@types/node": "^24.0.1",
     "eslint": "^9.16.0",
     "husky": "^9.1.7",
-    "lint-staged": "^15.2.10",
+    "lint-staged": "^16.1.1",
     "npm-run-all": "^4.1.5",
-    "prettier": "^3.4.1",
-    "typescript": "^5.7.2"
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3"
   },
   "peerDependencies": {
-    "eslint": "^9.9.0"
+    "eslint": "^9.29.0"
   },
   "lint-staged": {
     "*.{ts,js,json,yml}": "prettier --write"
