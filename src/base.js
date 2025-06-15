@@ -576,7 +576,7 @@ export const baseConfig = {
     yoda: 'error',
     '@typescript-eslint/no-misused-spread': 'error',
     '@typescript-eslint/no-unnecessary-type-conversion': 'error',
-    '@typescript-eslint/no-unsafe-type-assertion': 'error',
+    '@typescript-eslint/no-unsafe-type-assertion': 'off',
     '@typescript-eslint/related-getter-setter-pairs': 'error',
     'unicorn/consistent-assert': 'error',
     'unicorn/consistent-date-clone': 'error',
