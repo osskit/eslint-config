@@ -28,6 +28,8 @@ let y;
 
 if (y === undefined) {
   console.log('y is undefined');
+  y = 6;
+  console.log(y);
 }
 
 export const getValue = () => {

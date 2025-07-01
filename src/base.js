@@ -588,5 +588,7 @@ export const baseConfig = {
     'unicorn/prefer-global-this': 'error',
     'unicorn/prefer-import-meta-properties': 'error',
     'unicorn/prefer-math-min-max': 'error',
+    'import-x/prefer-namespace-import': 'off',
+    'no-unassigned-vars': 'error',
   },
 };

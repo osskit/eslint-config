@@ -1,5 +1,5 @@
 import typescriptEslint from 'typescript-eslint';
-import vitest from 'eslint-plugin-vitest';
+import vitest from '@vitest/eslint-plugin';
 
 /** @type {import('@typescript-eslint/utils').TSESLint.FlatConfig.Config} */
 export const testConfig = {
@@ -60,6 +60,25 @@ export const testConfig = {
     'vitest/prefer-comparison-matcher': 'error',
     'vitest/prefer-to-contain': 'error',
     'vitest/prefer-expect-assertions': 'off',
+    'vitest/consistent-vitest-vi': 'error',
+    'vitest/prefer-vi-mocked': 'error',
+    'vitest/prefer-describe-function-title': 'off',
+    'vitest/padding-around-after-all-blocks': 'error',
+    'vitest/padding-around-after-each-blocks': 'error',
+    'vitest/padding-around-before-all-blocks': 'error',
+    'vitest/padding-around-before-each-blocks': 'error',
+    'vitest/padding-around-describe-blocks': 'error',
+    'vitest/padding-around-all': 'error',
+    'vitest/padding-around-expect-groups': 'error',
+    'vitest/padding-around-test-blocks': 'error',
+    'vitest/valid-expect-in-promise': 'error',
+    'vitest/prefer-strict-boolean-matchers': 'error',
+    'vitest/require-mock-type-parameters': 'error',
+    'vitest/warn-todo': 'off',
+    'vitest/prefer-called-times': 'off',
+    'vitest/prefer-called-once': 'error',
+    'vitest/no-importing-vitest-globals': 'off',
+    'vitest/prefer-importing-vitest-globals': 'error',
   },
   settings: {
     vitest: {
