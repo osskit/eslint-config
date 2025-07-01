@@ -19,6 +19,17 @@ interface Foo {
 
 let foo: Foo | undefined;
 
+if (array.length > 0) {
+  foo = {
+    foo: (s: string) => {
+      console.log(s);
+    },
+    bar: () => {
+      console.log('bar');
+    },
+  };
+}
+
 console.log(x);
 
 const object = {
