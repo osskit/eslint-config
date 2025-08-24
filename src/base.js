@@ -590,5 +590,9 @@ export const baseConfig = {
     'unicorn/prefer-math-min-max': 'error',
     'import-x/prefer-namespace-import': 'off',
     'no-unassigned-vars': 'error',
+    'unicorn/require-module-specifiers': 'error',
+    'unicorn/prefer-class-fields': 'error',
+    'unicorn/no-useless-error-capture-stack-trace': 'error',
+    'unicorn/no-array-reverse': 'error',
   },
 };
