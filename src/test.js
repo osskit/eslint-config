@@ -79,6 +79,10 @@ export const testConfig = {
     'vitest/prefer-called-once': 'error',
     'vitest/no-importing-vitest-globals': 'off',
     'vitest/prefer-importing-vitest-globals': 'error',
+    'vitest/hoisted-apis-on-top': 'error',
+    'vitest/prefer-called-exactly-once-with': 'error',
+    'vitest/prefer-expect-type-of': 'error',
+    'vitest/prefer-import-in-mock': 'error',
   },
   settings: {
     vitest: {
