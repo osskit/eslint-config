@@ -594,5 +594,13 @@ export const baseConfig = {
     'unicorn/prefer-class-fields': 'error',
     'unicorn/no-useless-error-capture-stack-trace': 'error',
     'unicorn/no-array-reverse': 'error',
+    'preserve-caught-error': 'error',
+    'unicorn/no-array-sort': 'error',
+    'unicorn/no-immediate-mutation': 'error',
+    'unicorn/no-useless-collection-argument': 'error',
+    'unicorn/prefer-bigint-literals': 'error',
+    'unicorn/prefer-classlist-toggle': 'error',
+    'unicorn/prefer-response-static-json': 'error',
+    'unicorn/require-module-attributes': 'error',
   },
 };
