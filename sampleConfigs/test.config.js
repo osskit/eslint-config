@@ -13,10 +13,4 @@ export default [
     ...testConfig,
     files: ['fixtures/*.spec.js', 'fixtures/*.spec.ts', 'fixtures/*.spec.tsx'],
   },
-  {
-    files: ['fixtures/ts.ts'],
-    rules: {
-      '@typescript-eslint/unified-signatures': 'off',
-    },
-  },
 ];

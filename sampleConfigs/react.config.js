@@ -19,10 +19,4 @@ export default [
     ...reactConfig,
     files: ['fixtures/*.js', 'fixtures/*.ts', 'fixtures/*.tsx'],
   },
-  {
-    files: ['fixtures/ts.ts'],
-    rules: {
-      '@typescript-eslint/unified-signatures': 'off',
-    },
-  },
 ];
