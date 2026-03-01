@@ -368,7 +368,13 @@ export const baseConfig = {
     'no-restricted-globals': 'off',
     'no-restricted-imports': 'off',
     'no-restricted-properties': 'off',
-    'no-restricted-syntax': 'off',
+    'no-restricted-syntax': [
+      'error',
+      {
+        selector: 'TSAsExpression[typeAnnotation.type="TSUnionType"]',
+        message: 'Do not use union type assertions with as. Use type guards, narrowing, or typed constructors.',
+      },
+    ],
     'no-return-assign': 'error',
     'no-script-url': 'error',
     'no-self-assign': 'error',
