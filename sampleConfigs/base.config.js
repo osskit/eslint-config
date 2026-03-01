@@ -9,4 +9,10 @@ export default [
     files: ['fixtures/*.js', 'fixtures/*.ts', 'fixtures/*.tsx'],
     ignores: ['fixtures/react.js'],
   },
+  {
+    files: ['fixtures/ts.ts'],
+    rules: {
+      '@typescript-eslint/unified-signatures': 'off',
+    },
+  },
 ];
